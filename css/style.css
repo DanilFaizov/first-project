@@ -119,3 +119,69 @@ p:lang(en){
 .ikon{
     border: 5px solid rgb(0, 38, 255);
 }
+.wumen{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color:#7300ff;
+}
+td:nth-child(even){
+    color: brown;
+}
+th {
+    border: 5px solid black;
+    font-size: 1.2em;text-align: center;
+    
+    font-family:'Courier New', Courier, monospace ;
+}
+table{
+    border: 5px solid black;
+}
+.form__item{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#contact-form {
+    background-color: #0e83ad;
+    display: inline-block;
+    padding: 10px 120px 10px 10px;
+    color: #fff;
+}
+#contact-form #name{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: #fff 1px solid;
+    background-color: #eddfff;
+}
+#topic {
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    border: #fff 1px solid;
+    background-color: #eddfff;
+}
+#message {
+    min-height: 20px;
+    max-width: 250px;
+    min-width: 250px;
+    padding: 5px;
+    border: #fff 1px solid;
+    background-color: #eddfff;
+}
+
+label {
+    font-style: italic;
+}
+#contact-form input[type="submit"] {
+    background-color: #0800ff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #b098cf;
+}
+#connection{
+    text-align: center;
+} 
+

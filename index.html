@@ -18,6 +18,7 @@
             <ol>
                 <li><a href="#about">главное</a></li>
                 <li><a href="#articels">информатция про конькобежку</a></li>
+                <li><a href="#connection">обратная связь</a></li>
             </ol>
         </nav>
     </header>
@@ -53,6 +54,47 @@
                 <li><a href="articleTabl.html">мировые рекорды в виде таблицы</a></li>
             </ul>
         </section>
+        <section id="connection">   
+            <h2>Обратная связь</h2>          
+                <form action="" id="contact-form">
+                    <div class="form__item">
+                        <label for="topic">Тема</label><br>
+                        <select name="topic" id="topic" required>
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form__item">
+                        <label for="name">Имя</label><br>
+                        <input name="name" id="name" type="text" placeholder="Введите имя" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="name" >E-mail</label><br>
+                        <input name="name" id="name" type="email" placeholder = "Введите ваш E-mail" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="phone">Телефон</label><br>
+                        <input type="tel" id="name" name="phone" placeholder="Ваш телефон" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="date">Дата</label><br>
+                        <input type="date" name="date" id="name" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="message">Текст сообщения</label><br>
+                        <textarea name="message" id="message" cols="35" rows="10" placeholder = "Ваше сообщение" required></textarea>
+                    </div>   
+                    <div class="form__item">
+                        <label for=""><input type="checkbox" required>Согласие на обработку данных</label><br>
+                        <label for=""><input type="checkbox">Согласие на получение рассылок</label>
+                    </div>
+                    <div class="form__item_submit">
+                        <input type="submit">
+                    </div>      
+                </form>
+        </section>
     </main>
     <footer>
         <p>&copy; Фаизов Данил,2023г</p>
@@ -60,6 +102,5 @@
             <a target="_blank" href="https://vk.com/feed" class="ikon"><img src="img/vk.svg" alt="вк" width="20px"></a>
             <a target="_blank" href="https://web.telegram.org/a/" class="ikon"> <img src="img/telegram.svg" alt="телеграмм" width="20px"></a></p>
     </footer>
-    
 </body>
 </html>
